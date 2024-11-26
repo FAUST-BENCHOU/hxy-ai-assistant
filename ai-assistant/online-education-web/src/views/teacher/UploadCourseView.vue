@@ -4,7 +4,7 @@
         v-model="categoryDialogVisible"
         title="添加分类"
         width="500"
-        :before-close="handleCategoryClose"
+        :before-close = "handleCategoryClose"
     >
       <el-form>
         <el-form-item label="父级类">
